@@ -12,8 +12,8 @@ app.use(cors());
 
 mongoose
   .connect(
-    "mongodb+srv://dbUser:AeSlz7E0YxzVZgZR@cluster0.wpilz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-  )
+    "mongodb+srv://dbuser:axX43PSIIPbZra2f@cluster0.s4e6i.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    )
   .then(() => {
     console.log("Estamos conectados");
   });
